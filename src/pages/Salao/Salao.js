@@ -5,7 +5,7 @@ import firebaseApp from '../../FirebaseConnection';
 
 
 
-export default class MainSearch extends Component {
+export default class Salao extends Component {
 
     render(){
         return (

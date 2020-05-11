@@ -5,7 +5,7 @@ import firebaseApp from '../../FirebaseConnection';
 
 
 
-export default class MainUserQR extends Component {
+export default class Perfil extends Component {
 
     logout() {
         firebaseApp.auth().signOut().then(() => {
@@ -27,6 +27,10 @@ export default class MainUserQR extends Component {
                     <Text>
                         Sair
                     </Text>
+                </TouchableOpacity>
+
+                <TouchableOpacity onPress={()=> {this.props.navigation.navigate("ComanDash")}} style={{marginTop: 50}}>
+                    <Text style={{fontSize: 24}}>COMANDASH</Text>
                 </TouchableOpacity>
             </View>
         )
