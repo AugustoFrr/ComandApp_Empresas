@@ -10,6 +10,7 @@ import Cozinha from './pages/Cozinha/Cozinha'
 import Perfil from './pages/Perfil/Perfil'
 import CompanyData from './pages/CompanyData/CompanyData'
 import Dashboard from './pages/Dashboard/Dashboard'
+import Scanner from './pages/Scanner/Scanner'
 import Employees from './pages/Employees/Employees'
 
 
@@ -30,6 +31,8 @@ export default function Routes() {
       <Stack.Screen name="Main" component={mainTabRoutes} />
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Register" component={Register} />
+      <Stack.Screen name="Scanner" component={Scanner} />
+
       <Stack.Screen name="EmailVerification" component={EmailVerification} />
       <Stack.Screen name="ComanDash" component={comandashTabs} />
 
